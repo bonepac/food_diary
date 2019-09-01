@@ -1,0 +1,137 @@
+.listings{
+    padding-top: 30px;
+   
+}
+
+.listings ul.properties_list{
+    list-style: none;
+    overflow: hidden;
+}
+
+.listings ul.properties_list li{
+    display: block;
+    position: relative;
+    float: left;
+    
+}
+
+.listings ul.properties_list li .price{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 15px 20px;
+    background: #ffffff;
+    color: #5F9EA0;
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.listings ul li .property_details{
+    width: 80.64705882352941%;
+    padding: 2.941176470588235% 5.882352941176471% 4.117647058823529% 5.882352941176471%;
+    border-bottom: 1px solid #f2f1f1;
+    border-left: 1px solid #f2f1f1;
+    border-right: 1px solid #f2f1f1;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.listings ul li:hover .property_details{
+    border-bottom: 1px solid #95badf;
+    border-left: 1px solid #95badf;
+    border-right: 1px solid #95badf;
+}
+
+.listings ul li .property_details h1{
+    color: #5F9EA0;
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    font-size: 16px!important;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 28px;
+}
+
+.listings ul li .property_details h1 a{
+    text-decoration: none;
+    color: #5F9EA0;
+}
+
+.listings ul li .property_details h2{
+    color: #5F9EA0;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+
+.listings ul.properties_list li{
+        width: 100%;
+        margin-bottom: 10px!important;
+    }
+
+    .listings ul.properties_list li{
+        width: 32%;
+        margin: 0 7.272727272727273% 7.272727272727273% 0;
+    }
+
+
+body{
+     font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+	background-color:  #5F9EA0;
+}
+.navbar-default{
+	background-color:  #FFFFF0;
+	margin-top: 30px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-bottom: 0;
+}
+.navbar-brand{
+    color:#008080;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color:white;
+    color: #008080;
+}
+.container{
+	width: 1240px;
+
+	
+}
+.navbar-default .navbar-nav > li > a{
+     color: #008080;
+}
+.jumbotron{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 0px;
+	height: 5px;
+	border-radius: 0px;
+	background-color: white;
+	padding-top: 10px;
+	
+	
+}
+p{
+	margin: 0px;
+}
+.jumbotron p{
+color: #008080;
+font-size: 18px;
+font-weight: 10px;
+
+	}
+
